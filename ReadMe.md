@@ -58,30 +58,7 @@ View saved places in a scrollable list.
 
 Tap any place to view image, address, and location on map.
 
-📂 Project Structure (simplified)
 
-components/
-│
-├── Places/
-│   └── PlacesList.js
-│   └── PlaceForm.js
-│
-├── UI/
-│   └── OutlinedButton.js
-│   └── IconButton.js
-
-screens/
-│
-├── AllPlaces.js
-├── AddPlace.js
-├── PlaceDetails.js
-├── Map.js
-
-constants/
-│   └── colors.js
-
-utils/
-│   └── database.js
 🧪 Notes
 App uses SQLite for offline persistence.
 
